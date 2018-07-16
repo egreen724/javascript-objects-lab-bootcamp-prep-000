@@ -21,4 +21,4 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return object; 
 }
 
-var newObj = destructivelyDeleteFromObjectByKey(recipes, "eggs"); 
+destructivelyDeleteFromObjectByKey(recipes, "eggs"); 
